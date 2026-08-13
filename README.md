@@ -6,10 +6,10 @@
 
 **Deck web sobre saúde com engine de slides data-driven em ES modules**
 
-<a href="#"><img height="34" src="https://img.shields.io/badge/ES_Modules-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"></a>
-<a href="#"><img height="34" src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"></a>
-<a href="#"><img height="34" src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3"></a>
-<a href="https://cauelimsia.github.io/presentations/"><img height="34" src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=githubpages&logoColor=white" alt="GitHub Pages"></a>
+<a href="#"><img width="155" src="https://img.shields.io/badge/ES_Modules-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"></a>
+<a href="#"><img width="110" src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"></a>
+<a href="#"><img width="66" src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3"></a>
+<a href="https://cauelimsia.github.io/presentations/"><img width="175" src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=githubpages&logoColor=white" alt="GitHub Pages"></a>
 
 **[▶ Abrir a apresentação](https://cauelimsia.github.io/presentations/)** · [Como funciona](#-como-funciona) · [Navegação](#-navegação) · [Rodar local](#-rodar-local)
 
