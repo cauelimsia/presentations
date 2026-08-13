@@ -103,7 +103,7 @@ function renderCover() {
       <div class="copy-block">
         <h1>Nutrição e um <mark>estilo de vida</mark> de agora!</h1>
         <p class="lead-line">Comer bem e viver melhor — o que a ciência sustenta, sem dietas-milagre nem culpa.</p>
-        <p class="ans-line">por @clsolucoesweb</p>
+        <p class="ans-line">por @cauelimsia</p>
       </div>
       ${visualPanel("family", "Saúde que começa nas suas escolhas")}
     </section>

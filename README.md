@@ -3,7 +3,7 @@
 Apresentação web sobre **Nutrição & Estilo de Vida** — mesma engine/estilo da
 apresentação institucional do autor, com conteúdo trocado para saúde.
 
-**Online:** https://clsolucoesweb.github.io/presentations/
+**Online:** https://cauelimsia.github.io/presentations/
 
 ## Estrutura
 
@@ -32,4 +32,4 @@ Material educativo baseado em fontes de saúde pública (OMS, Guia Alimentar
 para a População Brasileira, Harvard T.H. Chan). Não substitui orientação
 de profissional de saúde.
 
-© 2026 · @clsolucoesweb
+© 2026 · @cauelimsia

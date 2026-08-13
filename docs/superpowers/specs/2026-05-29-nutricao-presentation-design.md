@@ -1,14 +1,14 @@
 # Spec — Apresentações (Nutrição & Estilo de Vida)
 
 **Data:** 2026-05-29
-**Autor:** cigano.agi (@clsolucoesweb)
+**Autor:** cigano.agi (@cauelimsia)
 **Status:** Aprovado
 
 ## Objetivo
 
 Replicar o estilo do site de referência `https://caiocesarps.github.io/presentations/`
 (landing index + deck self-contained) com conteúdo de **Nutrição & Estilo de Vida**,
-publicado em `https://clsolucoesweb.github.io/presentations/`.
+publicado em `https://cauelimsia.github.io/presentations/`.
 
 ## Match de estilo (requisito explícito do usuário)
 
@@ -52,7 +52,7 @@ Disclaimer obrigatório: "Conteúdo educativo. Não substitui orientação de pr
 
 ## Deploy
 `gh repo create clsolucoesweb/presentations --public` → push `main` →
-GitHub Pages (branch `main`, root) via `gh api` → URL `https://clsolucoesweb.github.io/presentations/`.
+GitHub Pages (branch `main`, root) via `gh api` → URL `https://cauelimsia.github.io/presentations/`.
 
 ## Critério de sucesso
 - Navegação por seta funciona (testado local antes de publicar).
