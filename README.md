@@ -1,35 +1,64 @@
-# presentations
+<div align="center">
 
-Apresentação web sobre **Nutrição & Estilo de Vida** — mesma engine/estilo da
-apresentação institucional do autor, com conteúdo trocado para saúde.
+<img src=".github/assets/deck.gif" width="820" alt="Navegação pelo deck de nutrição e estilo de vida">
 
-**Online:** https://cauelimsia.github.io/presentations/
+# Nutrição & Estilo de Vida
 
-## Estrutura
+**Deck web sobre saúde com engine de slides data-driven em ES modules**
+
+[![JavaScript](https://img.shields.io/badge/ES_Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://cauelimsia.github.io/presentations/)
+
+**[▶ Abrir a apresentação](https://cauelimsia.github.io/presentations/)** · [Como funciona](#-como-funciona) · [Navegação](#-navegação) · [Rodar local](#-rodar-local)
+
+`Cada slide é um objeto` · `Sem framework` · `Sem build`
+
+</div>
+
+---
+
+## 🥗 O que é
+
+Apresentação sobre nutrição e estilo de vida, com conteúdo baseado em recomendação da OMS
+(400 g de frutas e vegetais por dia, menos de 5 g de sal, açúcar livre abaixo de 10% das
+calorias). Mesma engine da apresentação institucional do autor, com o conteúdo trocado.
+
+## ⚙️ Como funciona
+
+O deck é **data-driven**: cada slide é um objeto de dados, e a engine decide como renderizá-lo
+a partir do seu tipo. Trocar o conteúdo não encosta em marcação nem em layout.
 
 ```
-index.html        # shell do deck (nav, footer, progress, thumbs)
-app.js            # engine (slides data-driven + navegação) — ES module
-styles.css        # estilo (Poppins, tema pink/azul)
-assets/gocare/    # imagens (Pexels/Wikimedia — ver SOURCES.md)
-assets/img/       # favicon
+index.html        casco do deck (nav, footer, progress, thumbs)
+app.js            engine — slides data-driven + navegação, como ES module
+styles.css        tema (Poppins, pink/azul)
+assets/gocare/    imagens (Pexels/Wikimedia — ver SOURCES.md)
 ```
 
-## Navegação
+> [!IMPORTANT]
+> `app.js` é um **ES module**. Abrir `index.html` direto do disco (`file://`) deixa a página
+> em branco — navegadores bloqueiam módulos por esse protocolo. Use um servidor local.
 
-- `→` / `↓` / `Espaço` ou `PageDown` — próximo
-- `←` / `↑` ou `PageUp` — anterior · `Home` / `End` — primeiro / último
-- Setas laterais · thumbs numerados no rodapé · deep-link por hash (`#5`)
+## ⌨️ Navegação
 
-> **Atenção:** `app.js` é um ES module. Abrir `index.html` direto do disco
-> (`file://`) deixa a página **em branco** (browsers bloqueiam módulos via
-> file:// por CORS). Veja pela URL do GitHub Pages acima, ou rode um servidor
-> local: `python -m http.server` e acesse `http://localhost:8000`.
+| Entrada | Ação |
+|---|---|
+| `→` `↓` `Espaço` `PgDn` | próximo |
+| `←` `↑` `PgUp` | anterior |
+| `Home` / `End` | primeiro / último |
+| Thumbs numerados no rodapé | pular para qualquer slide |
+| Hash na URL (`#5`) | deep-link por slide |
 
-## Conteúdo
+## 🚀 Rodar local
 
-Material educativo baseado em fontes de saúde pública (OMS, Guia Alimentar
-para a População Brasileira, Harvard T.H. Chan). Não substitui orientação
-de profissional de saúde.
+```bash
+python3 -m http.server 4173
+```
 
-© 2026 · @cauelimsia
+Depois abra `http://localhost:4173`.
+
+## 🧱 Stack
+
+`JavaScript (ES modules)` · `HTML5` · `CSS3` · `GitHub Pages`
